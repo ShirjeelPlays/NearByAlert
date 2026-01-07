@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "nearbyalert",
+	"version": "${version}",
+	"name": "NearbyAlert",
+	"description": "A minimal, PvP-friendly nearby player alert mod.",
+	"authors": [
+		"Shirjeel_plays"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/MineBoost",
+		"sources": "https://github.com/ShirjeelPlays/NearByAlert"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nearbyalert/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.shirjeel_plays.nearbyalert.NearbyAlertClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
